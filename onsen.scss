@@ -259,6 +259,30 @@ body {
     border: 1px solid #e7e7e7;
   }
 }
+@media screen and (max-width: 767px) {
+  .modal {
+    &__container {
+      width: 100%;
+      max-width: 550px;
+      padding: 0 20px;
+    }
+    &__icon {
+      right: 42px;
+    }
+    &__form {
+      width: 100%;
+      max-width: 430px;
+    }
+    &__name {
+      width: 100%;
+      max-width: 430px;
+    }
+    &__list {
+      width: 100%;
+      max-width: 430px;
+    }
+  }
+}
 
 .fv {
   width: 100%;

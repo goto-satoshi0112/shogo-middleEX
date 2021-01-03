@@ -45,7 +45,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 10;
   &__container {
     width: 100%;
     height: 100%;
@@ -124,7 +124,7 @@ body {
   width: 100%;
   height: 100vh;
   position: fixed;
-  z-index: 300;
+  z-index: 100;
   display: none;
   &__container {
     width: 100%;
@@ -142,7 +142,7 @@ body {
     position: absolute;
     top: 40px;
     right: 40px;
-    z-index: 301;
+    z-index: 101;
   }
   &__list {
     list-style: none;
@@ -230,7 +230,7 @@ body {
   background: url(img/top/mainbg01.png) no-repeat scroll center / cover;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 200;
   &__wrapper {
     width: 100%;
     height: 100%;
@@ -240,7 +240,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 102;
+    z-index: 201;
   }
   &__container {
     width: 550px;
@@ -250,7 +250,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 203;
+    z-index: 202;
   }
   &__icon {
     width: 18px;
@@ -308,7 +308,31 @@ body {
     border: 1px solid #e7e7e7;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .modal {
+    &__container {
+      width: 100%;
+      max-width: 550px;
+      padding: 0 20px;
+    }
+    &__icon {
+      right: 42px;
+    }
+    &__form {
+      width: 100%;
+      max-width: 430px;
+    }
+    &__name {
+      width: 100%;
+      max-width: 430px;
+    }
+    &__list {
+      width: 100%;
+      max-width: 430px;
+    }
+  }
+  
+}
 .fv {
   &__container {
     display: flex;
@@ -316,7 +340,7 @@ body {
     position: absolute;
     top: 33.55%;
     right: 26.45%;
-    z-index: 3;
+    z-index: 5;
   }
   &__title {
     font-size: 3.4rem;

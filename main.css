@@ -43,7 +43,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 10;
 }
 
 .header__container {
@@ -129,7 +129,7 @@ body {
   width: 100%;
   height: 100vh;
   position: fixed;
-  z-index: 300;
+  z-index: 100;
   display: none;
 }
 
@@ -150,7 +150,7 @@ body {
   position: absolute;
   top: 40px;
   right: 40px;
-  z-index: 301;
+  z-index: 101;
 }
 
 .drawer__list {
@@ -240,7 +240,7 @@ body {
   background: url(img/top/mainbg01.png) no-repeat scroll center/cover;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 200;
 }
 
 .modal__wrapper {
@@ -252,7 +252,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 102;
+  z-index: 201;
 }
 
 .modal__container {
@@ -263,7 +263,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 203;
+  z-index: 202;
 }
 
 .modal__icon {
@@ -332,13 +332,36 @@ body {
   border: 1px solid #e7e7e7;
 }
 
+@media screen and (max-width: 767px) {
+  .modal__container {
+    width: 100%;
+    max-width: 550px;
+    padding: 0 20px;
+  }
+  .modal__icon {
+    right: 42px;
+  }
+  .modal__form {
+    width: 100%;
+    max-width: 430px;
+  }
+  .modal__name {
+    width: 100%;
+    max-width: 430px;
+  }
+  .modal__list {
+    width: 100%;
+    max-width: 430px;
+  }
+}
+
 .fv__container {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
   top: 33.55%;
   right: 26.45%;
-  z-index: 3;
+  z-index: 5;
 }
 
 .fv__title {
