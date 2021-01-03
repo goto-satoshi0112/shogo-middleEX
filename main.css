@@ -387,7 +387,7 @@ body {
   max-width: 960px;
   min-width: 480px;
   margin-left: 29.84%;
-  padding: 64px 0 98px 0;
+  padding: 64px 0 98px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -532,9 +532,11 @@ body {
   }
   .features__image {
     width: 100%;
+    min-width: auto;
   }
   .features__wrapper {
     width: 100%;
+    min-width: auto;
   }
   .features__wrapper.wrapper2 {
     padding: 31px 20px 0;
@@ -544,6 +546,7 @@ body {
   }
   .features__content {
     margin-bottom: 40px;
+    white-space: normal;
   }
 }
 

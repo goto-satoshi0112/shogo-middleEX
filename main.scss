@@ -363,7 +363,7 @@ body {
     max-width: 960px;
     min-width: 480px;
     margin-left: 29.84%;
-    padding: 64px 0 98px 0;
+    padding: 64px 0 98px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -540,13 +540,13 @@ body {
     }
     &__image {
       width: 100%; //*//
-      // min-width: 388px;
+      min-width: auto;
       // height: auto;
       // object-fit: cover;
     }
     &__wrapper {
       width: 100%; //*//
-      // min-width: 380px;
+      min-width: auto;
       // box-sizing: border-box;
       // padding: 31px 20px 0;
       &.wrapper2 {
@@ -566,7 +566,7 @@ body {
       // line-height: 2;
       margin-bottom: 40px; //*//
       // &.content2 {
-      //   white-space: pre-wrap;
+        white-space: normal;
       //   margin-bottom: 43px;
       // }
     }
