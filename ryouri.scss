@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3",
     "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    font-weight: normal;
 }
 
 
@@ -74,12 +75,14 @@ body {
   }
   &__link {
     font-size: 1.6rem;
+    font-weight: bold;
     color: $bk;
     text-decoration: none;
   }
   &__button {
     display: inline-block;
     font-size: 1.6rem;
+    font-weight: bold;
     color: $wt;
     background: $gd;
     padding: 19px 37px 19px 69px;
@@ -99,6 +102,7 @@ body {
   &__spButton {
     display: none;
     font-size: 1.6rem;
+    font-weight: bold;
     color: $wt;
     background: $gd;
     padding: 10px 16px;
@@ -296,6 +300,7 @@ body {
   position: relative;
   &__title {
     font-size: 3.4rem;
+    font-weight: bold;
     color: $wt;
     position: absolute;
     top: 50%;
@@ -327,6 +332,7 @@ body {
   }
   .breadcrumb li a {
     font-size: 1.6rem;
+    font-weight: normal;
     text-decoration: none;
     color: $bk;
   }
@@ -342,6 +348,7 @@ body {
   margin: 0 auto;
   &__message {
     font-size: 1.6rem;
+    font-weight: normal;
     color: $bk;
     line-height: 2;
     text-align: center;
@@ -381,6 +388,7 @@ body {
   }
   &__title {
     font-size: 2.4rem;
+    font-weight: normal;
     color: $bk;
     margin-bottom: 52px;
   }

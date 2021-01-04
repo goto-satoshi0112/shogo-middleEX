@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-weight: normal;
 }
 
 .fixed {
@@ -79,6 +80,7 @@ body {
 
 .header__link {
   font-size: 1.6rem;
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
 }
@@ -86,6 +88,7 @@ body {
 .header__button {
   display: inline-block;
   font-size: 1.6rem;
+  font-weight: bold;
   color: #ffffff;
   background: #978F10;
   padding: 19px 37px 19px 69px;
@@ -170,6 +173,7 @@ body {
 .drawer__button {
   display: inline-block;
   font-size: 2rem;
+  font-weight: bold;
   color: #ffffff;
   background: #978F10;
   padding: 19px 37px 19px 69px;
@@ -367,6 +371,7 @@ body {
 
 .fv__title {
   font-size: 3.4rem;
+  font-weight: bold;
   color: #ffffff;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -400,6 +405,7 @@ body {
 
 .message__title {
   font-size: 2.8rem;
+  font-weight: lighter;
   color: #000000;
   writing-mode: vertical-rl;
   letter-spacing: 1.4rem;
@@ -476,6 +482,7 @@ body {
 
 .features__title {
   font-size: 3.6rem;
+  font-weight: lighter;
   color: #000000;
   line-height: 1.72;
   margin-bottom: 75px;
@@ -546,6 +553,8 @@ body {
   }
   .features__content {
     margin-bottom: 40px;
+  }
+  .features__content.content2 {
     white-space: normal;
   }
 }
@@ -567,6 +576,7 @@ body {
 
 .plan__title {
   font-size: 3.6rem;
+  font-weight: lighter;
   color: #000000;
   margin-bottom: 66px;
 }
@@ -646,6 +656,7 @@ body {
 
 .info__title {
   font-size: 3.6rem;
+  font-weight: lighter;
   color: #000000;
   margin-bottom: 46px;
 }
@@ -762,6 +773,7 @@ body {
 
 .access__title {
   font-size: 3.6rem;
+  font-weight: lighter;
   color: #000000;
   margin-bottom: 84px;
 }
